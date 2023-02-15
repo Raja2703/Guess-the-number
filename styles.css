@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body{
+    font-family: Silkscreen;
+    margin: 2rem;
+    color: whitesmoke;
+    background-color: rgba(53, 53, 53, 0.972);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.between{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.random{
+    height: 100px;
+    width: 130px;
+    background-color: rgb(211, 200, 200);
+    color:black;
+    text-align:center;
+    font-size:4rem;
+}
+
+.check-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    font-size: 1.3rem;
+    width: 150px;
+}
+
+input{
+    width: 12rem;
+    height:4rem;
+    outline: none;
+    background-color: rgba(53, 53, 53, 0.972);
+    font-size: xx-large;
+    text-align: center;
+}
+
+.check{
+    margin-top: 1.6rem;
+    height:3rem;
+}
